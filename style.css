@@ -1,0 +1,181 @@
+
+.container{
+    padding-top: 50px;
+}
+form{
+    width: 100%;
+    
+    background-color: rgb(225, 214, 238);
+    align-content: center;
+    
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+
+
+}
+.heading{
+    background-color: rgb(30, 172, 54);
+    padding: 10px 0px 10px 40px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    
+}
+p{
+    
+  padding-left: 40px; 
+    
+    
+}
+
+
+input[type=text],input[type=email],textarea{
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+
+}
+button{
+    color: white;
+    font-size: medium;
+    text-align: center;
+    
+    padding: 10px 40px 10px 40px;
+    background-color: rgb(50, 161, 55);
+    
+    border-radius: 4px;
+}
+.formsubmit{
+    width: 70px;
+    height: 40px;
+    color: rgba(74, 177, 168, 0.363);
+    background-color:green;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 40px;
+    
+    
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Quiz Classes */
+ .quizContainer {
+    background-color: white;
+    border-radius: 6px;
+    width: 75%;
+    height: 75%;
+    margin-top: 70px;
+    
+    padding-top: 5px;
+    /*-moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;*/
+    position: relative;
+}
+
+.nextButton {
+    box-shadow: 1px 1px 2px #888;
+    border-radius: 6px;
+    width: 40px;
+
+    height: 40px;
+    text-align: center;
+    background-color: rgba(100, 81, 189, 0.884);
+    /*clear: both;*/
+    color: white;
+    /*font-family:'Gabriola', serif;*/
+    position: relative;
+    margin: auto;
+	font-size:15px;
+	font-weight:bold;
+    padding-top: 5px;
+	float:right;
+	/*right:30%;*/
+    margin-top: 100px;
+}
+
+.preButton {
+    box-shadow: 1px 1px 2px #888;
+    border-radius: 6px;
+    
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(100, 81, 189, 0.884);
+    /*clear: both;*/
+    color: white;
+    /*font-family:'Gabriola', serif;*/
+    position: relative;
+    margin-left: 5px;
+	font-size:15px;
+	font-weight:bold;
+    padding-right: -80px;
+    
+    margin-left: px;
+	float:left;
+	/*left:30%;*/
+    margin-top: 100px;
+    
+    
+    
+
+}
+
+.question {
+    font-family:'Century', serif;
+    font-size: 1.5em;
+	font-weight:bold;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: #f3dc45;
+    text-align: center;
+    
+}
+.quizMessage {
+    background-color: peachpuff;
+    border-radius: 6px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+	font-size:20px;
+	font-weight:bold;
+    font-family:'Gabriola', serif;
+    color: red;
+	position:absolute;
+	top:80%;
+	left:40%;
+}
+.choiceList {
+    font-family: 'Arial', serif;
+    color: #ed12cd;
+	font-size:15px;
+	font-weight:bold;
+    
+}
+.result {
+    width: 40%;
+    height: auto;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+	color:green;
+    text-align: center;
+	font-size:15px;
+    font-family:'Verdana', serif;
+	font-weight:bold;
+	position:absolute;
+	top:80%;
+	left:30%;
+}
+/* End of Quiz Classes */

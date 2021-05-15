@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form id="myform" >
+        <div class = heading>
+           <h1>Registration Form</h1>
+           <span>Please fill all the texts in the fields</span>
+        </div>
+       
+       
+        <div class="form-group">
+           <p class="p1">
+               
+               Your Name:<br>
+                <input type="text" id="name" placeholder="Your Full Name" required>
+       
+           </p>
+           <div class="form-group">
+           <p class="p1">
+            Your Email: <br>
+            <input type="email" id="email" placeholder="Your Email Adderss " required>
+    
+        </p>
+        <div class="form-group">
+        <p class="p1">
+            Your Phone No: <br>
+            <input type="text" id="phone" placeholder="Your Phone Number " required>
+    
+        </p>
+        <div class="form-group">
+            <p class="p1">
+               
+                    <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." required>
+                  
+                <p>Are you ready to start quiz?</p>
+        
+            </p>
+             <div class="form-group">
+                <p class="p1">
+               
+            <a href="quiz.html" class="btn btn-primary">Submit</a>
+            </p>
+            </div>
+            
+           </form>
+           <script>
+               var myform = document.getElementById('myform')
+
+myform.addEventListener('submit',function(event){
+    event.preventDefault()
+
+    var name = document.getElementById('name').value 
+    console.log(name)
+    var email = document.getElementById('email').value 
+    console.log(email)
+    var phone = document.getElementById('phone').value 
+    console.log(phone)
+    var checkboxNoLabel = document.getElementById('checkboxNoLabel').value 
+    console.log(checkboxNoLabel)
+    
+
+
+
+})
+                 
+
+               
+           </script>
+    </div>
+</body>
+</html>
